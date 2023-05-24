@@ -51,7 +51,7 @@ So to build:
 .. code-block:: bash
 
     cd buildtasks/
-    ./bt-vm core-14.2-jessie-amd64
+    ./bt-container core-14.2-jessie-amd64
 
 When that's finished, you should find an official Core TurnKey ISO (and
 matching hash file) in /mnt/isos/ and a Core container build in 
@@ -82,7 +82,7 @@ relevant dependencies.
 
 .. code-block:: bash
 
-    ./bt-vm new-app-14.2-jessie-amd64
+    ./bt-container new-app-14.2-jessie-amd64
 
 
 .. _setup docs: https://github.com/turnkeylinux/buildtasks/blob/master/docs/setup
